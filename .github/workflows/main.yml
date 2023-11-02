@@ -8,8 +8,7 @@ on:
     - 'v*'
   schedule:
     - cron: '0 16 * * *'
-  watch:
-    types: [started]
+  workflow_dispatch
    
 jobs:
   checking:
